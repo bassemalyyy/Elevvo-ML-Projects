@@ -9,6 +9,8 @@ This project involves building a **regression** model to predict student exam sc
 
 -   **Concepts:** Regression, Evaluation Metrics
 
+* * * * *
+
 ### **Task 2: Customer Segmentation**
 
 This project uses **unsupervised learning** to group customers into segments. The recommended dataset, **Mall Customer (Kaggle)**, contains information on income and spending score. The main goal is to identify distinct customer groups. We perform **data scaling** and visualize the data to determine the optimal number of clusters using techniques like the **Elbow Method**. The **K-Means clustering** algorithm is then applied to group the customers, and the results are visualized using 2D plots to show the different segments.
@@ -16,6 +18,8 @@ This project uses **unsupervised learning** to group customers into segments. Th
 -   **Tools:** Python, Pandas, Matplotlib, Scikit-learn
 
 -   **Concepts:** Clustering, Unsupervised learning
+
+* * * * *
 
 ### **Task 3: Forest Cover Type Classification**
 
@@ -35,7 +39,9 @@ This project is a **binary classification** task to predict whether a loan appli
 
 -   **Concepts:** Binary classification, Imbalanced data
 
-### **Task 6: Music Genre Classification**
+* * * * *
+
+### **Task 5: Music Genre Classification**
 
 This project classifies songs into different genres using the **GTZAN (Kaggle)** dataset. The process involves extracting audio features, such as **Mel-frequency cepstral coefficients (MFCCs)** or creating **spectrogram images** from the audio files. The project explores two approaches: a **tabular approach** using features like MFCCs with a standard multi-class model, and an **image-based approach** using a **Transfer Learning on RESNet50** on the spectrogram images. The final results from both methods are compared.
 
@@ -43,7 +49,9 @@ This project classifies songs into different genres using the **GTZAN (Kaggle)**
 
 -   **Concepts:** Audio data, Transfer Learning, RESNet50
 
-### **Task 7: Sales Forecasting**
+* * * * *
+
+### **Task 6: Sales Forecasting**
 
 This project is a **time-series analysis** task to predict sales using the **Walmart Sales Forecast (Kaggle)** dataset. The process involves creating time-based features (e.g., day of the week, month, and lagged values) to capture temporal patterns. **Regression models** are then applied to forecast sales for the next period. The project's outcome is a visualization of the predicted sales plotted against the actual sales over time, allowing for a clear assessment of the model's accuracy.
 
